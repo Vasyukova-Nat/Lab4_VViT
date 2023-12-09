@@ -1,0 +1,67 @@
+Shift+Insert - вставить файл в Git Bash
+
+"C:\Users\lucky\OneDrive\Desktop\Git projects"
+
+cd "C:\Users\lucky\OneDrive\Desktop\Git projects"
+
+git clone https://github.com/GreenDevald1523/default-vite-project.git
+
+
+Lab4_vite_project.git
+
+git remote add origin https://github.com/Vasyukova-Nat/default-vite-project.git
+git remote set-url origin https://github.com/[your-username]/[repository-name].git
+git Remote add origin git@abc.com :mygit
+git remote add origin [url], где [url] — это адрес удаленного репозитория Git, к которому вы хотите добавить origin.
+Источник: https://tehtrand.ru/osibka-ne-sushhestvuet-udalennogo-istocnika-origin
+
+git remote set-url origin https://github.com/Vasyukova-Nat/default-vite-project.git
+git Remote set-url origin git@abc.com :mygit
+
+git remote -v
+
+cd "C:\Users\lucky\OneDrive\Desktop\Git projects\default-vite-project"
+
+git clone https://github.com/Vasyukova-Nat/Lab2.git C:\Users\lucky\OneDrive\Desktop\Git projects 2
+git clone <repository> <path>
+
+git clone <repository> .
+git clone https://github.com/Vasyukova-Nat/Lab2.git .
+
+npm install -g yarn
+
+
+Создаем пример (оказался не нужен)
+npx create-react-app lab2-app --typescript
+cd lab4-app
+npm start
+cd "C:\Users\lucky\OneDrive\Desktop\Git projects\default-vite-project\lab4-app"
+
+Форк в отдельную папку, начинаем с начала
+c
+git clone https://github.com/GreenDevald1523/default-vite-project
+cd default-vite-project
+npm install
+npm start
+
+Списываем с примера на сайте 2
+cd "C:\Users\lucky\OneDrive\Desktop\Draft react"
+npx create-react-app draft-app --template typescript
+npx create-react-app@latest draft-app --template typescript
+cd draft-app
+npm start
+
+Завершение лабы
+Переименую Git Projects в Lab4 VViT
+cd "C:\Users\lucky\OneDrive\Desktop\Lab4 VViT"
+cd default-vite-project
+
+Либо всё расположение сразу:
+cd "C:\Users\lucky\OneDrive\Desktop\Lab4 VViT\default-vite-project"
+
+yarn start (то же самое, что npm start)
+
+
+
+
+
